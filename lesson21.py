@@ -37,9 +37,6 @@
 #         result += chr(i)
 #     return result
 # print(myfunc(nums))
-
-
-
 # nums = input("ededleri daxil edin: ").split()
 # cem = 0
 # count = 0
