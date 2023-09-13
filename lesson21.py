@@ -42,6 +42,11 @@
 
 
 
+
+
+
+
+
 # print(myfunc(nums))
 # nums = input("ededleri daxil edin: ").split()
 # cem = 0
