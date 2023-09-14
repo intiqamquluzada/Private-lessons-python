@@ -9,7 +9,6 @@
 #     i += 1
 # print(newList)
 
-
 # 5. İstifadəçidən müxtəlif hərflər alın.
 # Daha sonra bu herfleri əlifba sırasına görə düzüb, birləşdirin. (While dövr operatoru ilə)
 # herfler = input("Herfleri daxil edin: ").split()
