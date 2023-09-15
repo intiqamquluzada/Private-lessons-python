@@ -137,3 +137,9 @@
 # print(dog)
 # class Person:
 #     pass
+
+
+from lesson23 import Person
+obj1 = Person(name="Intigam")
+print(obj1.name)
+
