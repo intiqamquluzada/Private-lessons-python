@@ -171,7 +171,5 @@ class Person:
 #
 # # A--> day of the week
 # # B --> month of year
-#
-#
 # print(datetime.datetime.now().strftime("%a"))
 # print(datetime.datetime(2023, 9, 15))
