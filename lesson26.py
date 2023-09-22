@@ -2,6 +2,8 @@
 # key = 31
 mlist = [' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u',
          'v', 'w', 'x', 'y', 'z']
+
+
 # myHashed = ''
 # for i in soz:
 #     myvalue = mlist.index(i) + key
@@ -11,21 +13,45 @@ mlist = [' ', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', '
 # print(myHashed)
 
 
-myHashed = "XFQFR"
-myHashed = myHashed.lower()
-print(myHashed)
-newlist = ""
-for j in range(1, 27):
-    for i in range(len(myHashed)):
-        if mlist.index(myHashed[i]) + j <= 26:
-            newlist += mlist[mlist.index(myHashed[i]) + j]
-    else:
-        if i + j -26 != 0:
-            newlist += mlist[i+j-26]
-        else:
-            newlist += mlist[i + j - 25]
+class Car:
+    def __init__(self, color, year):
+        self.color = color
+        self.year = year
 
-for i in range(len(newlist)):
-    if i == 5:
-        mystr =
-print(newlist)
+    def __str__(self):
+        return self.color
+
+
+carclub = Car(color="----", year="----")
+
+
+class SportCars(Car):
+    def __init__(self, year, color, maxspeed):
+        super().__init__( color, year)
+        self.maxspeed = maxspeed
+
+    def Carpower(self):
+        return self.maxspeed
+
+    def __str__(self):
+        return self.maxspeed
+
+
+car1 = SportCars(year="1976", color="red", maxspeed="320")
+
+
+class ClassicCars(Car):
+    def __init__(self, color, year, model, power):
+        super().__init__(color, year)
+        self.power = power
+        self.model = model
+
+    def Carpower(self):
+        return self.power
+
+    def __str__(self):
+        return self.power
+
+
+car2 = ClassicCars(color="white", year="1967", model="Sclass", power="340hp")
+print(car1)
