@@ -13,6 +13,8 @@
 
 
 
+
+
 # 33.Daxil edilən sözün hərflərinin
 # ASCİİ əlifbasındakı dəyərlərini bir list-ə əlavə edən funskiya yazın.
 
