@@ -1,3 +1,4 @@
+
 #PYTHONDA funksiyalar
 
 # def toplama():
