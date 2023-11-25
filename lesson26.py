@@ -62,14 +62,55 @@
 # #     newstr += mystr[i]
 
 
+# word = input("Enter the word: ")
+# my_dict = {}
+#
+#
+# for i in word:
+#     my_dict.update({i:word.count(i)})
+# print(my_dict)
 
 
+# class Animal:
+#     def __init__(self, food):
+#         self.food = food
+#
+#
+# class Dog(Animal):
+#     def __init__(self, food):
+#         super().__init__(food)
+#         self.food = food
+#
+#
+# class Cat(Animal):
+#     def __init__(self, food):
+#         super().__init__(food)
+#         self.food = food
+#
+#
+# def FeedTheAnimal(animal: Animal):
+#     print(type(animal))
+#     message = "You feed the " + str(type(animal).__name__) + " with " + animal.food
+#     print(message)
+#
+#
+# toplan = Dog("bones")
+# mestan = Cat("whiskas")
+#
+# FeedTheAnimal(toplan)
+# FeedTheAnimal(mestan)
 
 
-word = input("Enter the word: ")
-my_dict = {}
+class Production:
+    def produce(self):
+        bread = Bread()
+        bread.bake(True)
 
 
-for i in word:
-    my_dict.update({i:word.count(i)})
-print(my_dict)
+class Bread:
+    def bake(self, isTendir: bool):
+        print("Bread was baked in tendir")
+
+
+a = Production()
+a.produce()
