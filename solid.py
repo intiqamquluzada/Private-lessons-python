@@ -16,6 +16,7 @@
 #         print(self.content)
 
 
+
 # Accepted
 # class Book(object):
 #     def __init__(self, title, author, year, content):
