@@ -51,6 +51,11 @@
 #     def get_discount(self):
 #         return super().give_discount() * 5
 
+
+
+#--------------------------------------------------------
+
+
 # 3. Liskov Substitution Principle
 # A class --> parent
 # B class --> child
