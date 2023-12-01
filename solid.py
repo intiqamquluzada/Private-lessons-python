@@ -125,6 +125,8 @@
 #         print("Draw square")
 
 
+#---------------------------------------------------------------------
+
 # 5. Dependency Inversion Principle
 # IGNORED
 
