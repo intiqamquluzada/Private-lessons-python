@@ -93,6 +93,8 @@
 # # FeedTheAnimal(mestan)
 
 
+#----------------------------------------------------------------------
+
 # 4. Interface Segregation
 
 # class IShape:
