@@ -1,4 +1,4 @@
-import random
+#import random
 
 # 4. Istifadeci muxtelif herfler daxil edecek
 # ve bu herflerden random sozler duzelden funksiya yazin.
