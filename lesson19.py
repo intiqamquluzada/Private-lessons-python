@@ -4,7 +4,8 @@
 #     return eded
 # print(myfunc(a))
 
-# global deyisen
+
+# global variable
 # x = 5
 # def myfunc():
 #     return x
