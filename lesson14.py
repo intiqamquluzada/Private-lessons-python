@@ -8,7 +8,6 @@
 # # Bu dictionary-nin elementlərini dövr operatoru vasitəsilə myNewdict-ə əlavə edən funksiya yazın.
 
 
-
 # # mydict = {
 # #         1: 'Lesson',
 # #         2: 'Lesson2',
