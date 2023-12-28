@@ -21,6 +21,7 @@
 # Funksiya ve metod anlayislari
 
 
+
 # Funksiyalar - > bugune qeder serbest yazdigimiz funksiyalar
 # Metod - > obyekte mexsus olan funksiyaya deyirik
 
