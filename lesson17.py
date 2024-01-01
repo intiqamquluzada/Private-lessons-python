@@ -5,6 +5,8 @@
 
 # herfler = input("Herfleri daxil edin: ").split()
 
+
+
 # random.shuffle(herfler)
 # # x = random.choice(herfler)
 # mystr = "".join(herfler)
