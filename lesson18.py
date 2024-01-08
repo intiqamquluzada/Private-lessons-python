@@ -1,3 +1,4 @@
+
 # soz = input("sozleri daxil edin:").split()
 # print(soz)
 # # print(soz[0][-1:-3:-1])
