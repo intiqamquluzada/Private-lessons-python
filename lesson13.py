@@ -4,6 +4,7 @@
 # salam + 10*m
 
 
+
 # soz = input("Sozu daxil edin; ")
 
 # def last_letter(word):
